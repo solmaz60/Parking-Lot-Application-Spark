@@ -1,0 +1,5 @@
+val licenseFile = sc.textFile("/home/sparktp/5.xml")
+val occupied = input.filter(line => line.contains("occupied="+""""1""""))
+nofoccupied.cache()
+nofoccupied.count()
+nofoccupied.saveAsTextFile("input/result")

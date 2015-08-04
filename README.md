@@ -9,12 +9,13 @@ scala.txt : parking lot scala code (should be ran in spark-shell)
 
 5.xml : the sample of data set;the path of 5.xml file in both java and scala codes should be set.
 
+
 *How to Run scala.txt from spark-shell:
 copy and past the code in spark-shell
 /home/sparktp/spark-1.4.0-bin-hadoop2.6/bin/spark-shell
 
-*How to Run java app/scala app from submit-application:
 
+*How to Run java app/scala app from submit-application:
 Before starting, sbt needs to be installed. then folder /sparksample /src/main/java or scala should be created.
 Now file sparksample.sbt should be edited:
 name := "Spark Sample"

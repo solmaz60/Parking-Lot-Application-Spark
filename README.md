@@ -1,9 +1,8 @@
 # Parking-Lot-Application-Spark
 Parking Lot Application Files:
-PkLot.java: parking lot java code
-
-PkLotSearch.scala parking lot scala code
-scala.txt : parking lot scala code (should be used in spark-shell)
+PkLot.java: parking lot java code(should be ran from submit-application)
+PkLotSearch.scala parking lot scala code(should be ran from submit-application)
+scala.txt : parking lot scala code (should be ran in spark-shell)
 5.xml : the sample of data set;the path of 5.xml file in both java and scala codes should be set.
 
 *How to Run scala.txt from spark-shell:

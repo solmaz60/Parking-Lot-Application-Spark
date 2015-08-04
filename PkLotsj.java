@@ -15,7 +15,7 @@ JavaRDD<String> occupied = logData.filter(new Function<String, Boolean>() {
 // Count all the occupied space
 occupied.count();
 
-occupied.saveAsTextFile("result.txt");
+occupied.saveAsTextFile("javaresult");
       }
 }
 
